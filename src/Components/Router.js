@@ -6,7 +6,7 @@ import { Profile } from "Routes/Profile";
 
 export const AppRouter = ({ refreshUser, isLoggedIn, userObj }) => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       {isLoggedIn && <Navigation userObj={userObj} />}
       <div
         style={{
