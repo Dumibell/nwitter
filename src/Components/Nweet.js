@@ -5,7 +5,7 @@ import { deleteObject, ref } from "firebase/storage";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash, faPencilAlt } from "@fortawesome/free-solid-svg-icons";
 
-export const Nweet = ({ nweetObj, isOwner }) => {
+export const Nweet = ({ nweetObj, isOwner, userObj }) => {
   const [editing, setEditing] = useState(false);
   const [newNweet, setNewNweet] = useState(nweetObj.text);
 
@@ -55,6 +55,7 @@ export const Nweet = ({ nweetObj, isOwner }) => {
         </>
       ) : (
         <>
+          <p className="displayName">{userObj.displayName}</p>
           <h4>{nweetObj.text}</h4>
           {nweetObj.attachmentURL && (
             <img src={nweetObj.attachmentURL} alt="이미지" />

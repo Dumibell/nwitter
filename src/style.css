@@ -277,3 +277,10 @@ form {
   font-size: 12px;
   text-decoration: underline;
 }
+
+.displayName {
+  color: #04aaff;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: small;
+}
