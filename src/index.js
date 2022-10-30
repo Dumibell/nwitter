@@ -5,8 +5,4 @@ import App from "./Components/App";
 import "./style.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <App />
-  </BrowserRouter>
-);
+root.render(<App />);
