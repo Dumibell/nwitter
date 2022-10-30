@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Dumibell.github.io/nwitter/static/css/main.7ca68190.css",
-    "main.js": "/Dumibell.github.io/nwitter/static/js/main.a456de56.js",
-    "index.html": "/Dumibell.github.io/nwitter/index.html",
-    "main.7ca68190.css.map": "/Dumibell.github.io/nwitter/static/css/main.7ca68190.css.map",
-    "main.a456de56.js.map": "/Dumibell.github.io/nwitter/static/js/main.a456de56.js.map"
+    "main.css": "/dumibell.github.io/nwitter/static/css/main.7ca68190.css",
+    "main.js": "/dumibell.github.io/nwitter/static/js/main.2e943cb9.js",
+    "index.html": "/dumibell.github.io/nwitter/index.html",
+    "main.7ca68190.css.map": "/dumibell.github.io/nwitter/static/css/main.7ca68190.css.map",
+    "main.2e943cb9.js.map": "/dumibell.github.io/nwitter/static/js/main.2e943cb9.js.map"
   },
   "entrypoints": [
     "static/css/main.7ca68190.css",
-    "static/js/main.a456de56.js"
+    "static/js/main.2e943cb9.js"
   ]
 }
