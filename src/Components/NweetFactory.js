@@ -31,6 +31,7 @@ export const NweetFactory = ({ userObj }) => {
       createdAt: Date.now(),
       creatorId: userObj.uid,
       attachmentURL,
+      name: userObj.displayName,
     };
     await addDoc(collection(dbService, "nweets"), nweetObj);
     setNweet("");

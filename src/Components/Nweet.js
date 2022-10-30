@@ -55,7 +55,7 @@ export const Nweet = ({ nweetObj, isOwner, userObj }) => {
         </>
       ) : (
         <>
-          {/* <p className="displayName">{userObj.displayName}</p> */}
+          <p className="displayName">{nweetObj.name}</p>
           <h4>{nweetObj.text}</h4>
           {nweetObj.attachmentURL && (
             <img src={nweetObj.attachmentURL} alt="이미지" />
