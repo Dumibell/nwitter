@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { Auth } from "Routes/Auth";
 import { Home } from "Routes/Home";
 import { Navigation } from "Components/Navigation";
@@ -6,7 +6,7 @@ import { Profile } from "Routes/Profile";
 
 export const AppRouter = ({ refreshUser, isLoggedIn, userObj }) => {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter base="/">
       {isLoggedIn && <Navigation userObj={userObj} />}
       <div
         style={{
