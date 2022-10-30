@@ -35,6 +35,6 @@ export const AppRouter = ({ refreshUser, isLoggedIn, userObj }) => {
           )}
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
